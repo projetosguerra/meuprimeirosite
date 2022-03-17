@@ -2,13 +2,24 @@ body{
     background-color: #FF0000              ;
 }
 
+p{
+    color: #FFFAFA;
+}
+
+
+
 .container{
 
-width: 80%;
-margin: auto;
+ width: 80%;
+ margin: auto;
+}
+
+h2{
+    text-align: center;
 }
 
 h1{
+    color: #FFFF00;
 text-align: center;
 }
 
