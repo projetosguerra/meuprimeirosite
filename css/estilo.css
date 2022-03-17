@@ -1,4 +1,21 @@
 body{
-    background-color: red;
-    height: 1px; color: orange;
+    background-color: #FF0000              ;
+}
+
+.container{
+
+width: 80%;
+margin: auto;
+}
+
+h1{
+text-align: center;
+}
+
+img{
+width: 50%;
+}
+
+figure{
+text-align: center;
 }
