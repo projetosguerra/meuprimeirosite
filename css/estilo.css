@@ -9,9 +9,8 @@ p{
 
 
 .container{
-
- width: 80%;
- margin: auto;
+     width: 70%;
+    margin: auto;
 }
 
 h2{
@@ -20,13 +19,19 @@ h2{
 
 h1{
     color: #FFFF00;
-text-align: center;
+    text-align: center;
 }
 
-img{
-width: 50%;
-}
 
 figure{
-text-align: center;
+    text-align: center;
+}
+
+
+.img_topo{
+    width: 100%;
+}
+
+.img_corpo{
+    width: 60%;
 }
