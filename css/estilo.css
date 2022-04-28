@@ -20,10 +20,6 @@ h2{
     text-align: center;
 }
 
-h1{
-    color: #FFFF00;
-    text-align: center;
-}
 
 
 figure{
@@ -38,3 +34,9 @@ figure{
 .img_corpo{
     width: 60%;
 }
+
+ul li{
+    color: #FFFAFA;
+    font-size: 1.5em;
+}
+
