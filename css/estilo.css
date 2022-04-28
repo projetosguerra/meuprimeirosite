@@ -1,6 +1,5 @@
 body{
-    background-image: url(https://i0.wp.com/www.multarte.com.br/wp-content/uploads/2018/12/fundo-vermelho-escuro19-1024x576.png?resize=696%2C392&ssl=1);
-    background-size: 100%;
+    background-color: black;
 }
 
 p{
@@ -39,4 +38,24 @@ ul li{
     color: #FFFAFA;
     font-size: 1.5em;
 }
+
+/* unvisited link */
+a:link {
+    color: 	#0000FF;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: 	#FF4500;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: 	#FFFF00;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 
