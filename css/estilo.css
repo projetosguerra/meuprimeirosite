@@ -7,8 +7,6 @@ p{
     font-size: 1.5em;
 }
 
-
-
 .container{
      width: 70%;
     margin: auto;
@@ -17,14 +15,13 @@ p{
 h2{
     color: 	#FF0000;
     text-align: center;
+    border-color: red;
+    border-style: groove;
 }
-
-
 
 figure{
     text-align: center;
 }
-
 
 .img_topo{
     width: 50%;
@@ -39,23 +36,22 @@ ul li{
     font-size: 1.5em;
 }
 
-/* unvisited link */
 a:link {
     color: 	#0000FF;
   }
   
-  /* visited link */
-  a:visited {
+a:visited {
     color: 	#FF4500;
   }
   
-  /* mouse over link */
-  a:hover {
+a:hover {
     color: 	#FFFF00;
   }
   
-  /* selected link */
-  a:active {
+a:active {
     color: blue;
   }
 
+footer{
+    text-align: center;
+}
