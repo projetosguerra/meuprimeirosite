@@ -52,6 +52,12 @@ a:active {
     color: blue;
   }
 
-footer{
+
+h1 {
+    color: #FFFF00;
     text-align: center;
+    border-color: #FFFF00;
+    border-style: groove;
 }
+
+
