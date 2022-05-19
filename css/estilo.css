@@ -2,6 +2,22 @@ body{
     background-color: black;
 }
 
+.menu{
+    background-color: rgb(255, 0, 0);
+    padding: 2%;
+}
+
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font: 1.3em;
+}
+
+h1{
+    font-size: 1.2;
+}
+
 p{
     color: #FFFAFA;
     font-size: 1.5em;
@@ -41,7 +57,7 @@ a:link {
   }
   
 a:visited {
-    color: 	#FF4500;
+    color: 	#FFFF00;
   }
   
 a:hover {
