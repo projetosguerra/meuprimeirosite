@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 
-.menu{
+.menu, footer{
     background-color: rgb(255, 0, 0);
     padding: 2%;
 }
@@ -12,10 +12,6 @@ body{
     line-height: 1.5;
     text-align: center;
     font: 1.3em;
-}
-
-h1{
-    font-size: 1.2;
 }
 
 p{
@@ -28,7 +24,20 @@ p{
     margin: auto;
 }
 
+h1{
+    font-size: 2em;
+    color: #FFFF00;
+    text-align: center;
+    border-color: #FFFF00;
+    border-style: groove;
+}
+
+h1, h2{
+    text-align: center;
+}
+
 h2{
+
     color: 	#FF0000;
     text-align: center;
     border-color: red;
@@ -47,6 +56,10 @@ figure{
     width: 60%;
 }
 
+.img_autoral{
+    width: 20%;
+}
+
 ul li{
     color: #FFFAFA;
     font-size: 1.5em;
@@ -54,26 +67,26 @@ ul li{
 
 a:link {
     color: 	#0000FF;
-  }
+}
   
 a:visited {
     color: 	#FFFF00;
-  }
+}
   
 a:hover {
     color: 	#FFFF00;
-  }
+}
   
 a:active {
     color: blue;
-  }
-
-
-h1 {
-    color: #FFFF00;
-    text-align: center;
-    border-color: #FFFF00;
-    border-style: groove;
 }
+
+.itens_menu{
+    padding-top: 1%;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.3em;
+}
+
 
 
