@@ -4,7 +4,7 @@ body{
 
 .menu, footer{
     background-color: rgb(255, 0, 0);
-    padding: 2%;
+    padding: 1%;
 }
 
 .itens_menu{
@@ -37,7 +37,7 @@ h1, h2{
 }
 
 h2{
-
+    font-size: 2em;
     color: 	#FF0000;
     text-align: center;
     border-color: red;
@@ -66,7 +66,7 @@ ul li{
 }
 
 a:link {
-    color: 	#0000FF;
+    color: 	#FFFF;
 }
   
 a:visited {
@@ -81,11 +81,23 @@ a:active {
     color: blue;
 }
 
-.itens_menu{
+.itens_menu {
     padding-top: 1%;
     line-height: 1.5;
     text-align: center;
     font-size: 1.3em;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
 }
 
 
