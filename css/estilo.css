@@ -174,10 +174,12 @@ a.instagram{
     float: left;
     width: 30%;
     margin-right: 2%;
+    border:4px solid #FFFF00;
 }
 
 .direita{
     float: right;
     width: 30%;
     margin-left: 2%;
+    border:4px solid #FFFF00;
 }
