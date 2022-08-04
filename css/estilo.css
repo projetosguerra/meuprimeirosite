@@ -197,7 +197,15 @@ table {
     width: 100%;
   }
   
-  td, th {
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #FFFFFF;
+  }
+
+  th {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
