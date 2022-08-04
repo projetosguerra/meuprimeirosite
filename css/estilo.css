@@ -195,6 +195,7 @@ table{
     width: 100%;
     border-collapse: collapse;
     color: #FFFFFF;
+    margin-bottom: 2%;
 }
 
 td, th{
