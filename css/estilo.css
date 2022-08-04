@@ -191,24 +191,20 @@ a.instagram{
     border:4px solid #FFFF00;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
+table{
     width: 100%;
-  }
-  
-  td {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
+    border-collapse: collapse;
     color: #FFFFFF;
-  }
+}
 
-  th {
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-    color: #FFFFFF;
-  }
-  
+td, th{
+    border: 2px groove;
+    padding: 1%;
+}
+
+.img_soundtrack{
+    width: 50%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border:4px solid #FFFF00;
+}
