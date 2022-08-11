@@ -213,3 +213,7 @@ td, th{
 audio{
     width: 85%;
 }
+
+label{
+    color: #FFFFFF;
+}
