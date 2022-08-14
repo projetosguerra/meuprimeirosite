@@ -38,9 +38,19 @@ footer p{
     padding-bottom: 1%;
 }
 
+.itens_menu ul{
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+    overflow: hidden;
+
+}
+
 .itens_menu li{
+    display: inline;
     font-size: 1.3em;
     padding: 0.3%;
+    float: right;
 }
 
 .itens_menu a:visited, .itens_menu a:link{
@@ -48,15 +58,20 @@ footer p{
     text-decoration: none;
     font-weight: bolder;
     text-shadow: 2px 2px black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
 
 .itens_menu a:hover{
     background-color: rgba(9, 7, 6, 0.4);
-    padding: 0.3%;
 }
 
 .logo{
+    display: inline;
     padding: 0.01%;
+    padding-top: 1%;
+    float: left;
 }
 
 p{
@@ -216,4 +231,55 @@ audio{
 
 label{
     color: #FFFFFF;
+}
+
+.input-group{
+    padding: 1%;
+    position: relative;
+}
+
+.input{
+    padding: 10px;
+    border: none;
+    border: 2px;
+    font: inherit;
+    color: #fff;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+
+.input-label{
+    padding: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+}
+
+.input:focus+.input-label,
+.input:valid+.input-label{
+    transform: 
+    translate(10px, -14px) scale(.8);
+    color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: #242329;
+}
+
+.input:is(:focus, :valid) {
+    outline-color: #d1c5fc;
+}
+
+.form{
+    padding: 2%;
+}
+
+.row{
+    padding: 1%;
+}
+
+.submit{
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #FFFFFF;
 }
