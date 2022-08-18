@@ -9,11 +9,20 @@ html{
 
 body{
     background-color: black;
+    overflow-x: hidden
 }
 
 .menu{
     background-color: rgb(128, 0, 0);
-    padding: 0.3%;
+}
+
+nav, .logo, .itens_menu, .itens_menu ul{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 20px;
+    height: 15vh;
 }
 
 .video{
@@ -34,23 +43,17 @@ footer p{
 
 .itens_menu{
     text-align: center;
-    padding: 0.01%;
-    padding-bottom: 1%;
 }
 
 .itens_menu ul{
-    list-style-type: none;
-    margin: 2%;
-    padding: 0;
+    list-style: none;
     overflow: hidden;
-
 }
 
 .itens_menu li{
-    display: inline;
+    list-style: none;
     font-size: 1.3em;
-    padding: 0.3%;
-    float: right;
+    padding: 0 20px;
 }
 
 .itens_menu a:visited, .itens_menu a:link{
@@ -68,10 +71,7 @@ footer p{
 }
 
 .logo{
-    display: inline;
-    padding: 0.01%;
-    padding-top: 1%;
-    float: left;
+    padding: 1%;
 }
 
 p{
@@ -81,6 +81,11 @@ p{
     text-align: justify;
     text-indent: 40px;
     padding: 1%;
+}
+
+.paddingP{
+    padding: 1%;
+    margin: 2%;
 }
 
 .container{
@@ -99,6 +104,7 @@ h1{
     padding: 1%;
     border:4px solid #800000;
     font-family:'SyneMono-Regular', monospace;
+    border-radius: 20px;
 }
 
 h2{
@@ -109,8 +115,9 @@ h2{
     text-shadow: 2px 2px black;
     color: 	#FFFF00;
     text-align: center;
-    padding: 1%;
     border:4px solid #800000;
+    border-radius: 20px;
+    padding: 1%;
     font-family:'SyneMono-Regular', monospace;
 }
 
@@ -120,8 +127,8 @@ figure{
 }
 
 .img_topo{
-    width: 30%;
-    padding: 3%;
+    width: 40%;
+    padding: 1%;
 }
 
 .img_corpo{
@@ -213,9 +220,18 @@ table{
     margin-bottom: 2%;
 }
 
-td, th{
+tr{
+    padding: 1%;
+}
+
+td{
     border: 2px groove;
     padding: 1%;
+}
+
+th{
+    border: 2px groove;
+    padding: 5px;
 }
 
 .img_soundtrack{
@@ -226,7 +242,7 @@ td, th{
 }
 
 audio{
-    width: 85%;
+    width: 100%;
 }
 
 label{
