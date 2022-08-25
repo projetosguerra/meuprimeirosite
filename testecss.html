@@ -7,32 +7,101 @@
     <title>Teste Css Interno e Inline</title>
     <style>
         body{
-            background-image: url(https://media2.giphy.com/headers/clubdoauto/fjDIBvQjjE3G.gif);
-            background-size: 100%;
+            background-color: black;
         }
 
         h1{
             color: 	#32CD32;
-            font-size: 200%;
         }
 
         p{
             color: #A020F0;
-            font-size: 200%;
         }
 
-        div{
-            width: 200px;
-            height: 100px;
-            color: blue;
+        .container{
+            position: relative;
+            background-color: #A020F0;
+            width: 100%;
+            height: 1220px;
+            text-align: center;
         }
 
+        .topoesquerda{
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;       
+         }
+
+         .topodireita{
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;  
+         }
+
+         .abaixoesquerda{
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;       
+         }
+
+         .abaixodireita{
+            position: absolute;
+            bottom: 16px;
+            right: 16px;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;  
+         }
+
+         .centro{
+            position: absolute;
+            top: 50%;
+            right: 40%;
+            font-size: 18px;
+            width: 20%;
+            background-color: blue;
+         }
+
+         .fixo{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;
+            background-color: #A020F0;
+         }
+
+         .main{
+            margin-top: 8%;
+         }
     </style>
 </head>
 <body>
-    <h1 style="border-color: white;border-style: dotted;">Teste CSS Interno e Inline</h1>
-    <p style="border: white;border-style: groove; background-color: #32CD32;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id maiores blanditiis, libero nihil quae eum modi hic perferendis sed eius, quia pariatur at ex alias voluptatibus? Ut, in sequi.</p>
-    <p style="border: white;border-style: groove;background-color: #32CD32;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cum id consequatur asperiores temporibus quisquam reprehenderit laudantium porro nesciunt eaque aspernatur fugiat, dolore similique, ullam quas labore vitae exercitationem accusamus.</p>
+    <header class="fixo">
+        <h1 style="border-color: white;border-style: dotted;">Teste CSS Interno e Inline</h1>
+        <p style="border: white;border-style: groove; background-color: #32CD32;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, id maiores blanditiis, libero nihil quae eum modi hic perferendis sed eius, quia pariatur at ex alias voluptatibus? Ut, in sequi.</p>
+        <p style="border: white;border-style: groove;background-color: #32CD32;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam cum id consequatur asperiores temporibus quisquam reprehenderit laudantium porro nesciunt eaque aspernatur fugiat, dolore similique, ullam quas labore vitae exercitationem accusamus.</p>
+    </header>
+    <div class="main">
+        <h1>Testando</h1>
+        <div class="container">
+            <div class="topoesquerda">Topo Esquerda</div>
+            <div class="topodireita">Topo Direita</div>
+            <div class="abaixoesquerda">Abaixo Esquerda</div>
+            <div class="abaixodireita">Abaixo Direita</div>
+            <div class="centro">Centro</div>
+        </div>
+    </div>
+    
     <a href="index.html"><div>Voltar a ágina nicial</div></a>
 </body>
 </html>

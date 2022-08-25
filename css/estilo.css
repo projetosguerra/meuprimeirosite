@@ -128,7 +128,7 @@ figure{
 
 .img_topo{
     width: 40%;
-    padding: 1%;
+    margin: 7%;
 }
 
 .img_corpo{
@@ -258,3 +258,13 @@ label{
     background-color: #000000;
     border-color: #FFFFFF;
 }
+
+.fixo{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+ }
+
+ 
