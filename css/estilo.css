@@ -12,18 +12,43 @@ body{
     overflow-x: hidden
 }
 
-.menu{
-    background-color: rgb(128, 0, 0);
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
-nav, .logo, .itens_menu, .itens_menu ul{
-    justify-content: space-between;
+nav {
+    overflow: hidden;
+    background-color: #800000;
+}
+
+.itens_menu li {
+    float: right;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding: 0 20px;
-    height: 15vh;
+    justify-content: space-between;
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
+
+.itens_menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    width: 15%;
+    padding: 1%;
+    text-align: center;
+}
+
 
 .video{
     padding: 1%;
@@ -41,21 +66,6 @@ footer p{
     font-size: 1em;
 }
 
-.itens_menu{
-    text-align: center;
-}
-
-.itens_menu ul{
-    list-style: none;
-    overflow: hidden;
-}
-
-.itens_menu li{
-    list-style: none;
-    font-size: 1.3em;
-    padding: 0 20px;
-}
-
 .itens_menu a:visited, .itens_menu a:link{
     color: #FFFF;
     text-decoration: none;
@@ -68,10 +78,6 @@ footer p{
 
 .itens_menu a:hover{
     background-color: rgba(9, 7, 6, 0.4);
-}
-
-.logo{
-    padding: 1%;
 }
 
 p{
@@ -124,6 +130,10 @@ h2{
 figure{
     text-align: center;
     padding: 1%;
+}
+
+.img_logo {
+    width: 40%;
 }
 
 .img_topo{
@@ -259,12 +269,71 @@ label{
     border-color: #FFFFFF;
 }
 
-.fixo{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
- }
+form {
+    box-sizing: border-box;
+    margin-top: 11%;
+}
 
+.form{
+    background-color: rgba(128,128,128, 0.5) ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=tel], input[type=email], select, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    resize: vertical;   
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;  
+}
+
+input[type=submit] {
+    background-color:rgba(128,128,128, 0.5)  ;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;   
+}
+
+input[type=submit]:hover {
+    background-color: #FF6347 ;   
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+  
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 450px) {
+
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }    
+}
+
+.top-sdt {
+    margin-top: 11%;
+}
  
