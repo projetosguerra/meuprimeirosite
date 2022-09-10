@@ -101,6 +101,25 @@
             <div class="centro">Centro</div>
         </div>
     </div>
+
+    <script>
+        function light(sw) {
+          var pic;
+          if (sw == 0) {
+            pic = "img\pic_bulboff.gif"
+          } else {
+            pic = "img\pic_bulboff.gif"
+          }
+          document.getElementById('myImage').src = pic;
+        }
+        </script>
+        
+        <img id="myImage" src="img\pic_bulboff.gif" width="100" height="180">
+        
+        <p>
+        <button type="button" onclick="light(1)">Light On</button>
+        <button type="button" onclick="light(0)">Light Off</button>
+        </p>
     
     <a href="index.html"><div>Voltar a ágina nicial</div></a>
 </body>
