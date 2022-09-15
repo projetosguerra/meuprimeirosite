@@ -26,12 +26,6 @@ header {
     top: 0;
 }
 
-.menu{
-    background-color: rgb(128, 0, 0);
-    padding: 0.3%;
-    position: relative;
-}
-
 .itens_menu{
     text-align: center;
 }
@@ -702,6 +696,24 @@ input[type=submit]:hover {
         border-radius: 20px;
         padding: 1%;
         font-family: 'Bebas Neue', cursive;
+    }
+
+    .bannerall {
+        width: 100%;
+        margin-top: 50%;
+    }
+
+    .img_gif {
+        width: 100%;
+    }
+
+    .font-figure {
+        margin-top: -50%;
+        width: 100%;
+    }
+
+    .fonts {
+        width: 60%;
     }
 
 }
